@@ -7,6 +7,6 @@ Descripcion de las carpetas:
 
 La carpeta .workspace contienen los archivos de Asistencia.sol y contract-5d9676cb4d.sol, los cuales corresponden a el contrato para generar los certificados de asistencia a clase y la moneda inteligente con estandar ERC-20 (La moneda tiene por nombre Bolivar y simbolo JELP).
 
-La carpeta DappWeb3ConnectTemplate contiene el proyecto para generar la interfaz del contrato para generar los certificados de asistencias.
+La carpeta DappWeb3ConnectTemplate contiene el proyecto para generar la interfaz del contrato para generar los certificados de asistencias. Dentro de esta misma carpeta (DappWeb3ConnectTemplate) se encuentra un README el cual explica los pre-requisitos y el como correr el proyecto de la interfaz grafica.
 
 La carpeta Imag contiene imagenes utilizadas en la presentacion de la entrega final.
