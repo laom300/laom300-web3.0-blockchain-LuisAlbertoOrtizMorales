@@ -1,2 +1,0 @@
-ASISTENCIA: https://ropsten.etherscan.io/tx/0xfe7a4d49c83aed10dd52dd16cc73c771ffa833f570ceb40ecf3a33556401bf80
-MONEDA BOLIVAR: https://rinkeby.etherscan.io/tx/0x12714e3d7c51e4991c041fee702dc5d00d4ca88cd0998e8232a15b927e13bd8b
