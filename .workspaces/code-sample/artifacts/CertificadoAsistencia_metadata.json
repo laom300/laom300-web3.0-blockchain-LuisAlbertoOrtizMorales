@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombreC",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "alumnos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombreEst",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fechaParticipacion",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "asistio",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "codigoE",
+						"type": "uint256"
+					}
+				],
+				"name": "cosultarCertificado",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fechaCurso",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombreE",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "codigoE",
+						"type": "uint256"
+					}
+				],
+				"name": "guardarCertificado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nombreCls",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Asistencia.sol": "CertificadoAsistencia"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Asistencia.sol": {
+			"keccak256": "0x1a9a109562ceea1a87462bb688c2a86bcd3f79be94af2a633b8cf29819c0ffd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8067f5d3bdc63c9620cae48aaa8f8da29d39bcb802572dafeaae254965e12036",
+				"dweb:/ipfs/QmT83aVTwZWk43xwXqNhwEAbDZxeBcUkwNxP4QmuWH71vD"
+			]
+		}
+	},
+	"version": 1
+}
